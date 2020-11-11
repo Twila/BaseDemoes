@@ -3,10 +3,10 @@
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_E8E8E8"
+    android:background="@color/color_F5F5F5"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <include layout="@layout/toolbar_layout" />
+    <include layout="@layout/top_bar" />
 
 </LinearLayout>

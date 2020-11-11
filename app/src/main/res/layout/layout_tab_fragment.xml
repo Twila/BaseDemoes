@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <data>
+
+        </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/frame_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/solid_tab"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <com.flyco.tablayout.CommonTabLayout
+                    android:id="@+id/solid_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_48"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:background="@color/color_F5F5F5"
+                    app:tl_textBold="SELECT"
+                    app:tl_indicator_width="@dimen/dp_10"
+                    app:tl_indicator_color="@color/colorPrimary"
+                    app:tl_indicator_corner_radius="@dimen/dp_1"
+                    app:tl_indicator_gravity="TOP"
+                    app:tl_iconVisible="true"
+                    app:tl_iconGravity="LEFT"
+                    app:tl_iconHeight="@dimen/dp_18"
+                    app:tl_iconWidth="@dimen/dp_18"
+                    app:tl_textsize="@dimen/sp_14"
+                    app:tl_textSelectColor="@color/colorPrimary"
+                    app:tl_textUnselectColor="@color/color_FFD700"
+                     />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

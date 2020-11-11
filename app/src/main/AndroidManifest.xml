@@ -21,8 +21,8 @@
         <activity android:name=".MainActivity"/>
         <activity android:name=".feature.ChatActivity"/>
         <activity android:name=".feature.ContactsActivity"/>
-        <activity android:name=".feature.FragmentActivity"/>
-        <activity android:name=".feature.TabActivity"/>
+        <activity android:name=".feature.TabViewPagerFragmentActivity"/>
+        <activity android:name=".feature.TabFragmentActivity"/>
     </application>
 
 </manifest>

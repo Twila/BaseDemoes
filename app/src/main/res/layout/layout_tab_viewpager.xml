@@ -1,0 +1,45 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <data>
+
+        </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <HorizontalScrollView
+                    android:id="@+id/slide_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_F5F5F5"
+                    android:scrollbars="none"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                        <com.flyco.tablayout.SlidingTabLayout
+                            android:id="@+id/side_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_48"
+                            app:tl_indicator_color="@color/color_F5F5F5"
+                            app:tl_indicator_corner_radius="@dimen/dp_2"/>
+
+                </HorizontalScrollView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/color_F5F5F5"
+                    android:scrollbars="none"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/slide_tab"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -2,9 +2,14 @@
     <string name="app_name">baseDemo</string>
     <string name="base_demo">基础小样</string>
     <string name="demo_resource">小样</string>
-    <string name="chat_demo">对话小样</string>
-    <string name="contact_demo">通讯录小样</string>
-    <string name="tab_demo">标签小样</string>
-    <string name="fragment_demo">碎片小样</string>
+    <string name="chat_demo">对话</string>
+    <string name="contact_demo">通讯录</string>
+    <string name="tab_fragment_demo">TabFragment</string>
+    <string name="tab_viewpager_demo">TabViewPager</string>
+    <string name="title">title</string>
+    <string name="curtain">窗帘</string>
+    <string name="mswitch">开关</string>
+    <string name="bulb">灯泡</string>
+    <string name="temperature_light">色温灯</string>
 
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_btn_bg"
+    android:layout_width="@dimen/dp_80"
+    android:layout_height="@dimen/dp_40"
+    android:background="@drawable/shape_switch_button"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingRight="@dimen/dp_6">
+
+    <ImageView
+        android:id="@+id/offImageView"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_6"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_switch_button_off"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onImageView"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:layout_gravity="center_vertical|right"
+        android:background="@drawable/shape_switch_button_on" />
+</FrameLayout>
