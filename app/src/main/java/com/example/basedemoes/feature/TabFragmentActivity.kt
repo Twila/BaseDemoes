@@ -1,13 +1,12 @@
 package com.example.basedemoes.feature
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.basedemoes.R
 import com.example.basedemoes.base.BaseActivity
 import com.example.basedemoes.databinding.LayoutTabFragmentBinding
 import com.example.basedemoes.feature.ui.SimpleImageFragment
-import com.example.basedemoes.feature.ui.TabEntity
+import com.example.basedemoes.entity.TabEntity
 import com.example.basedemoes.view_model.TabFragmentViewModel
 import com.flyco.tablayout.listener.CustomTabEntity
 
@@ -37,12 +36,7 @@ class TabFragmentActivity: BaseActivity<TabFragmentViewModel>() {
         binding.solidTab.showDot(0)
         binding.solidTab.showMsg(1, 200)
         binding.solidTab.setMsgMargin(1, -5F, 5F)
-
-
     }
-
-
-
 
 
     fun initFragments(){

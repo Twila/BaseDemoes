@@ -7,9 +7,14 @@
     <string name="tab_fragment_demo">TabFragment</string>
     <string name="tab_viewpager_demo">TabViewPager</string>
     <string name="title">title</string>
+    <string name="device">设备</string>
     <string name="curtain">窗帘</string>
+    <string name="air_condition">空调</string>
     <string name="mswitch">开关</string>
     <string name="bulb">灯泡</string>
     <string name="temperature_light">色温灯</string>
+    <string name="color_light">DLT调光调色灯</string>
+    <string name="temperature">Temperature</string>
+    <string name="color">Color</string>
 
 </resources>

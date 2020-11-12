@@ -1,4 +1,4 @@
-package com.example.basedemoes.feature.ui
+package com.example.basedemoes.entity
 
 import com.flyco.tablayout.listener.CustomTabEntity
 

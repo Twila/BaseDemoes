@@ -23,6 +23,7 @@
         <activity android:name=".feature.ContactsActivity"/>
         <activity android:name=".feature.TabViewPagerFragmentActivity"/>
         <activity android:name=".feature.TabFragmentActivity"/>
+        <activity android:name=".feature.MultiDeviceActivity"/>
     </application>
 
 </manifest>
