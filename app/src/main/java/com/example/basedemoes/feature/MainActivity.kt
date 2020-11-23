@@ -1,4 +1,4 @@
-package com.example.basedemoes
+package com.example.basedemoes.feature
 
 
 import android.content.Intent
@@ -7,11 +7,11 @@ import android.os.Bundle
 import android.view.View
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.listener.OnItemClickListener
+import com.example.basedemoes.R
 import com.example.basedemoes.adapter.HomeBannerAdapter
 import com.example.basedemoes.adapter.HomeItemAdapter
 import com.example.basedemoes.entity.BannerEntity
 import com.example.basedemoes.entity.ItemEntity
-import com.example.basedemoes.feature.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), OnItemClickListener {
@@ -63,13 +63,16 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
     }
 
     fun initRecyclerData(){
-        mItemList.add(ItemEntity(R.string.chat_demo,  R.drawable.ic_chat, ChatActivity::class))
+        mItemList.add(ItemEntity(R.string.chat_demo, R.drawable.ic_chat, ChatActivity::class))
         mItemList.add(ItemEntity(R.string.contact_demo, R.drawable.ic_contact, ContactsActivity::class))
-        mItemList.add(ItemEntity(R.string.tab_fragment_demo, R.drawable.ic_table, TabFragmentActivity::class))
-        mItemList.add(ItemEntity(R.string.tab_viewpager_demo, R.drawable.ic_fragment, TabViewPagerFragmentActivity::class))
+        mItemList.add(ItemEntity(R.string.tab_fragment_demo,
+            R.drawable.ic_table, TabFragmentActivity::class))
+        mItemList.add(ItemEntity(R.string.tab_viewpager_demo,
+            R.drawable.ic_fragment, TabViewPagerFragmentActivity::class))
         mItemList.add(ItemEntity(R.string.device, R.drawable.ic_device, MultiDeviceActivity::class))
         for (i in 1..10){
-            mItemList.add(ItemEntity(R.string.demo_resource, R.drawable.ic_baseline_forum_24, ChatActivity::class))
+            mItemList.add(ItemEntity(R.string.demo_resource,
+                R.drawable.ic_baseline_forum_24, ChatActivity::class))
         }
     }
 

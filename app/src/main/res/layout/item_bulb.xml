@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/iv_panel"
+        android:id="@+id/iv_bulb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_16"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_device_state"
+            android:id="@+id/bulb_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/dp_20"

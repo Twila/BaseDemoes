@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/color_F5F5F5"
-        tools:context=".MainActivity">
+        tools:context=".feature.MainActivity">
 
         <com.youth.banner.Banner
             android:id="@+id/home_banner"

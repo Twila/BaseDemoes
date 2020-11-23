@@ -1,9 +1,10 @@
-package com.example.basedemoes
+package com.example.basedemoes.feature
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.example.basedemoes.R
 
 class WelcomeActivty : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
